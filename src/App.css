@@ -1,5 +1,6 @@
 .App {
   text-align: center;
+  margin:"10px"
 }
 
 .App-logo {
@@ -35,4 +36,30 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.navbar {
+  display: flex;
+  align-items: center;
+  
+  background: #eee;
+  color: black;
+  font-family: Helvetica;
+  font-weight: 300;
+  border: 1px solid black;
+  margin:10px;
+}
+
+.navbar__title {
+  margin-right: auto;
+  font-size: 20px;
+  padding: 10px 16px;
+}
+
+.navbar__item {
+  display: flex;
+  flex-direction: row;
+  padding: 10px 16px;
+  cursor: pointer;
+  text-align: center;
 }
